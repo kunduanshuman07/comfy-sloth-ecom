@@ -1,10 +1,17 @@
 import React from 'react'
+import FeaturedProducts from "../components/FeaturedProducts";
+import Hero from "../components/Hero";
+import Services from "../components/Services";
+import Contact from "../components/Contact";
 
 const HomePage = () => {
   return (
-    <div>
-      
-    </div>
+    <main>
+      <Hero/>
+      <FeaturedProducts/>
+      <Services/>
+      <Contact/>
+    </main>
   )
 }
 
